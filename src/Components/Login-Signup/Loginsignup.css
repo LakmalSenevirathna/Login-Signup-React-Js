@@ -1,0 +1,61 @@
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    width: 400px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: purple;
+}
+
+.input{
+    background: rgb(233, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;   
+    color: gray; 
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.submit__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forgot__password{
+    margin-bottom: 20px;
+}
+
+span{
+    cursor: pointer;
+}
+
+.submit{
+    padding: 15px 0;
+    background: rgb(222, 115, 218);
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
