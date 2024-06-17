@@ -47,6 +47,7 @@
 
 span{
     cursor: pointer;
+    color: rgb(57, 139, 217);
 }
 
 .submit{
@@ -57,5 +58,10 @@ span{
     cursor: pointer;
     color: white;
     font-weight: 500;
+}
+
+.gray{
+    background: rgb(187, 178, 178);
+    color: rgb(112, 111, 111);
 }
 
